@@ -12,9 +12,13 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
-# import sys
+import sys
 import os
 # import shlex
+
+# NOTE: this is a temp solution to a known Sphinx bug
+# https://github.com/sphinx-doc/sphinx/issues/2084
+sys.setrecursionlimit(1500)
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
