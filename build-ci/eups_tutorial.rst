@@ -18,7 +18,7 @@ this situation tractable.
 
 Here, we provide a tutorial-based introduction to basic EUPS functionality.
 Throughout, we use the ``%`` symbol to represent a shell prompt (i.e., this
-preceeds commands one might type into a terminal).
+precedes commands one might type into a terminal).
 
 .. _EUPS: https://github.com/RobertLuptonTheGood/eups
 
